@@ -107,7 +107,7 @@ class Voice(object):
 			"locale": localeName,
 			"language": localeName,
 			"langDescription": langDescription,
-			"description": "[%s] %s - %s" % (cls.engine, voice.displayName, langDescription),
+			"description": "%s - %s [%s]" % (voice.displayName, langDescription, cls.engine),
 			"engine": cls.engine,
 		}
 
