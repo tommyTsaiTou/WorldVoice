@@ -80,7 +80,7 @@ class Voice(Voice):
 				"locale": localeName,
 				"language": localeName,
 				"langDescription": langDescription,
-				"description": "%s - %s [%s]" % (voice.displayName, langDescription, cls.engine),
+				"description": "%s - %s [%s]" % (name, langDescription, cls.engine),
 				"engine": "Cerence",
 			})
 
